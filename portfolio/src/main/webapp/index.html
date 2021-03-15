@@ -5,6 +5,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="script2.js"></script>
   </head>
   <body>
     <div id="content">
@@ -28,10 +29,10 @@
       <h3>Local Temperature System, Guided Project</h3>
       <p>Created a readable tool to update weather forecasts in real time.
         Worked with API scripts and web scraping in order to send data from websites to the Raspberry Pi System.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-    </div>
+      
+      <button onclick="fetchResponse();">Fetch Response</button>
+      <p id="text-container"></p>
+      <p>Click <a href="/url">here</a> to see fetch content.</p>
+    
   </body>
 </html>
