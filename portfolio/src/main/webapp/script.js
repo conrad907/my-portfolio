@@ -15,14 +15,14 @@
 /**
  * Adds a random greeting to the page.
  */
-function addRandomGreeting() {
-  const greetings =
+function addTelevision() {
+  const television =
       ['WandaVision', 'Attack On Titan', 'Jujutsu Kaisen', 'Dr. Stone'];
 
   // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  const television = television[Math.floor(Math.random() * television.length)];
 
   // Add it to the page.
-  const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
+  const televisionContainer = document.getElementById('television-container');
+  televisionContainer.innerText = television;
 }
